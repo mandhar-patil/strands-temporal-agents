@@ -6,7 +6,7 @@ TASK_QUEUE = "strands-temporal-agent-queue"
 
 # AWS Bedrock configuration
 AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
-BEDROCK_MODEL_ID = os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-20250514-v1:0")
+BEDROCK_MODEL_ID = os.getenv("BEDROCK_MODEL_ID", "qwen.qwen3-coder-next")
 
 # Docker configuration
 DOCKER_HOST = os.getenv("DOCKER_HOST", "unix:///var/run/docker.sock")
